@@ -8,3 +8,12 @@ information about countries in the World and presents it to the client, the user
 of the country or filtering by continent and/or currency. This Single Page Application (SPA) is deployed using Firebase.
 &nbsp;
 
+![Screenshot Image](/public/images/General-view.png)
+
+**Filter by name functionality:**
+
+![Screenshot Image](/public/images/Filter-functionality.png)
+
+**Detailed view functionality:**
+
+![Screenshot Image](/public/images/Detailed-view-results.png)
