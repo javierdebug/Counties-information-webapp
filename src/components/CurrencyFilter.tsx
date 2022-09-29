@@ -1,7 +1,7 @@
-import { useQuery } from "@apollo/client";
-import { GET_COUNTRIES_WITH_CURRENCY } from "../queries/countriesQueries";
-import { Country, CurrencyInterface } from "../interface/interface";
-import { useState } from "react";
+import {useQuery} from "@apollo/client";
+import {GET_COUNTRIES_WITH_CURRENCY} from "../queries/countriesQueries";
+import {Country, CurrencyInterface} from "../interface/interface";
+import {useState} from "react";
 
 export default function CurrencyFilter({
   onChange,
@@ -10,12 +10,12 @@ export default function CurrencyFilter({
   let listOfCurrencies: string[] = [];
   const [defaultOption, setDefaultOption] = useState("DEFAULT");
 
-  const { loading, error, data } = useQuery(GET_COUNTRIES_WITH_CURRENCY);
+  const {loading, error, data} = useQuery(GET_COUNTRIES_WITH_CURRENCY);
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error...</p>;
 
-  data.countries.map((country: Country) => {
+  data.countries.forEach((country: Country) => {
     let stringSplitted: string[] = country.currency
       ? country.currency.split(",")
       : [];

@@ -1,14 +1,14 @@
-import { useQuery } from "@apollo/client";
-import { GET_COUNTRIES_BY_CONTINENT } from "../queries/countriesQueries";
-import { Continent, ContinentInterface } from "../interface/interface";
+import {useQuery} from "@apollo/client";
+import {GET_COUNTRIES_BY_CONTINENT} from "../queries/countriesQueries";
+import {Continent, ContinentInterface} from "../interface/interface";
 import {useState} from "react";
 
 export default function ContinentFilter({
   onChange,
   onClick,
 }: ContinentInterface) {
-  
-  const { loading, error, data } = useQuery(GET_COUNTRIES_BY_CONTINENT);
+
+  const {loading, error, data} = useQuery(GET_COUNTRIES_BY_CONTINENT);
 
   const [defaultOption, setDefaultOption] = useState("DEFAULT");
 
@@ -37,10 +37,10 @@ export default function ContinentFilter({
             </option>
           ))}
         </select>
-          <button className="btn btn-warning mx-sm-2" onClick={() => {
-            onClick();
-            setDefaultOption("DEFAULT");
-          }}>
+        <button className="btn btn-warning mx-sm-2" onClick={() => {
+          onClick();
+          setDefaultOption("DEFAULT");
+        }}>
           Remove filter
         </button>
       </div>
