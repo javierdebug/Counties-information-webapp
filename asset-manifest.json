@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Countries-information-webapp.git/static/css/main.35b124f7.css",
-    "main.js": "/Countries-information-webapp.git/static/js/main.203a2e38.js",
-    "static/js/787.b9b98fa4.chunk.js": "/Countries-information-webapp.git/static/js/787.b9b98fa4.chunk.js",
-    "static/media/william-navarro-82Xsw-pGsJI-unsplash.jpg": "/Countries-information-webapp.git/static/media/william-navarro-82Xsw-pGsJI-unsplash.27a315a6af58ee8413f5.jpg",
-    "static/media/juliana-kozoski-IoQioGLrz3Y-unsplash.jpg": "/Countries-information-webapp.git/static/media/juliana-kozoski-IoQioGLrz3Y-unsplash.db67529bd888c3e40e46.jpg",
-    "index.html": "/Countries-information-webapp.git/index.html",
-    "main.35b124f7.css.map": "/Countries-information-webapp.git/static/css/main.35b124f7.css.map",
-    "main.203a2e38.js.map": "/Countries-information-webapp.git/static/js/main.203a2e38.js.map",
-    "787.b9b98fa4.chunk.js.map": "/Countries-information-webapp.git/static/js/787.b9b98fa4.chunk.js.map"
+    "main.css": "/static/css/main.af1f9900.css",
+    "main.js": "/static/js/main.0390e3e3.js",
+    "static/js/787.b9b98fa4.chunk.js": "/static/js/787.b9b98fa4.chunk.js",
+    "static/media/william-navarro-82Xsw-pGsJI-unsplash.jpg": "/static/media/william-navarro-82Xsw-pGsJI-unsplash.27a315a6af58ee8413f5.jpg",
+    "static/media/juliana-kozoski-IoQioGLrz3Y-unsplash.jpg": "/static/media/juliana-kozoski-IoQioGLrz3Y-unsplash.db67529bd888c3e40e46.jpg",
+    "index.html": "/index.html",
+    "main.af1f9900.css.map": "/static/css/main.af1f9900.css.map",
+    "main.0390e3e3.js.map": "/static/js/main.0390e3e3.js.map",
+    "787.b9b98fa4.chunk.js.map": "/static/js/787.b9b98fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35b124f7.css",
-    "static/js/main.203a2e38.js"
+    "static/css/main.af1f9900.css",
+    "static/js/main.0390e3e3.js"
   ]
 }
